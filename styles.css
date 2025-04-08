@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.toDoRow {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.taskInput {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.dateInput {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.addTaskButton {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #008e06;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButton {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
